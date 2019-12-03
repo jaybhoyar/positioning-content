@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom CSS */
+body {
+    background-color: #EFEFEF;
+
+}
+
+.main-heading {
+    font-size: 44px;
+    padding: 30px;
+    letter-spacing: 2px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+.row {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFD6D2;
+    border: 1px solid rgb(129, 129, 129);
+}
+
+.box {
+
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #FF0F0E;
+    border-radius: 5px;
+    background-color: #FF7569;
+    box-sizing: border-box;
+}
+
+.box1 {
+    vertical-align: top;
+    width: 40%;
+}
+
+.box2 {
+    float: left;
+    width: 40%;
+    background-color: #5FF993;
+    border: 1px solid rgb(35, 134, 68);
+}
+
+.box2 .code {
+    background-color: rgba(155, 229, 180, 0.897);
+}
+
+.box3 {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.box4 {
+    width: 50%;
+}
+.float::before,
+.float::after {
+    content: "";
+    display: table;
+}
+
+.float::after {
+    clear: both;
+}

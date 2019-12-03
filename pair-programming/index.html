@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Pair Programming | Positioning Content</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="main-heading">Side-By-Side Positioning Demo</h1>
+
+                <div class="row">
+                    <div class="box box1">These two divs are positioned next to one another using <span
+                            class="code">display:
+                            inline-block;</span></div>
+                    <div class="box box1">Notice the space between them. It occurs
+                        because of my carriage return in the HTML
+                        which I've used to keep the code organized.
+                        I've used a reset to ensure no elements
+                        should have any default margin or padding.
+                        (I did add a bottom margin to make it easier
+                        to read.) This space is actually a space
+                        character rendered just as it would be
+                        between two inline elements.</div>
+                </div>
+                <!-- Floated  -->
+                <div class="row float">
+                    <div class="box box2">These two divs are positioned next to one another using <span
+                            class="code">float:left;</span></div>
+                    <div class="box box2">You can see that, even though the elements
+                        are spaced in the code, the space is not actually rendered on the
+                        page.This may not be a huge deal in these first examples, but...</div>
+                </div>
+                <div class="row">
+                    <div class="box box3">What if I want my side-by-side elements to take up the full width of the
+                        parent element? I can set the width of each to 50%, right? </div>
+                    <div class="box box3">Wrong! Because, together, the two inline block elements will add up to 100% of
+                        the available width, but that doesn't account for the space between. </div>
+                </div>
+                <div class="row float">
+                    <div class="box box2 box4">If I do the same thing with floated elements</div>
+                    <div class="box box2 box4">The two elements are side-by-side just as I
+                        intended and fill the entire width of the parent
+                        (which, in this case, is the same as the width of</div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
